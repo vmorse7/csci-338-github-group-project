@@ -1,0 +1,15 @@
+#helloWorld {
+    text-align: center;
+}
+
+#pizza {
+    color: orangered;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+}
