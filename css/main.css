@@ -1,11 +1,55 @@
-#helloWorld {
+/*
+* Tristan Morse, William, David, Michael, Austin
+* Created on: September 3rd, 2019
+* Last updated: September 9th, 2019
+*/
+
+/* Header */
+#header {
+    text-align: center;
+    font-family: sans-serif;
+}
+
+/* Links */
+#mainLinks {
+    text-align: center;
+    list-style-type: none;
+    color: black;
+    font-family: monospace;
+    font-size: 20px;
+    padding: 0;
+}
+
+a:link {
+    text-decoration: none;
+    color: black;
+}
+
+a:visited {
+    color: black;
+}
+
+a:hover {
+    color: blueviolet;
+    transition: ease-in-out .3s;
+    transform: scale(2);
+    text-decoration: underline;
+}
+
+/* Main Text */
+#credits {
     text-align: center;
 }
 
-#pizza {
-    color: orangered;
+#infoHeader {
+    font-family: sans-serif;
 }
 
+#info {
+    font-family: monospace
+}
+
+/* Footer */
 .footer {
     position: fixed;
     left: 0;
@@ -14,6 +58,11 @@
     width: 100%;
 }
 
+
+#pizza {
+    color: orangered;
+    font-family: fantasy;
+}
 .center {
   display: block;
   margin-left: auto;
