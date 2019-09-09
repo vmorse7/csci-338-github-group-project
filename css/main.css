@@ -58,7 +58,14 @@ a:hover {
     width: 100%;
 }
 
+
 #pizza {
     color: orangered;
     font-family: fantasy;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
